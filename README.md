@@ -7,13 +7,13 @@ This interactive CLI allows you to combine text files from a specific folder int
 When executing the binary:
 
 1. Target path files: ./myproject
-2. Name result (default: complete\_project.txt): output.txt
+2. Name result (default: content.txt): output.txt
 3. Files/folders will be ignored (optional): node_modules, .git, build
 
 ## Generated files
 
-- `complete_project.txt`: consolidated file with comments for each file.
-- `exceptions.txt`: list of non-UTF-8 files.
+- `results/content.txt`: consolidated file with comments for each file.
+- `results/exceptions.txt`: list of non-UTF-8 files.
 
 ## Requirements
 
